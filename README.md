@@ -1,1 +1,2 @@
-# javascript-patterns 
+# javascript-patterns
+Repo with js patterns
