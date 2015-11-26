@@ -4,6 +4,6 @@
 
 function bind(o, m) {
     return function () {
-        return m.apply(o, [].prototype.slice.call(arguments));
+        return m.apply(o, [].prototype.slice.call(arguments ));
     };
 }
