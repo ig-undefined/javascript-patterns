@@ -7,7 +7,11 @@
 var validator = {
     types: {},
     messages: [],
-    config: {},
+    config: {
+        first_name: 'isNotEmpty',
+        age: 'isNumber',
+        username: 'isAlphaNum'
+    },
 
     validate: function (data) {
         var i
@@ -71,13 +75,6 @@ var data = {
     last_name: "Man",
     age: "unknown",
     username: "o_0"
-};
-
-// Validator config
-validator.config = {
-    first_name: 'isNotEmpty',
-    age: 'isNumber',
-    username: 'isAlphaNum'
 };
 
 // Usage

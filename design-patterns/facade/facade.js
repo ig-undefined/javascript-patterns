@@ -21,3 +21,5 @@ var myevent = {
         }
     }
 };
+
+myevent.stop(e);
